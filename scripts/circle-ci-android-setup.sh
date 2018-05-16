@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-set -e
+set -ex
 
 function download() {
   if hash curl 2>/dev/null; then
